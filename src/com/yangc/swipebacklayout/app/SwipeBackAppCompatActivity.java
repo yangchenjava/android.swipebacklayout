@@ -1,14 +1,14 @@
 package com.yangc.swipebacklayout.app;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import android.support.v4.app.FragmentActivity;
 import android.view.View;
 
 import com.yangc.swipebacklayout.helper.SwipeBackActivityHelper;
 import com.yangc.swipebacklayout.helper.Utils;
 import com.yangc.swipebacklayout.widget.SwipeBackLayout;
 
-public class SwipeBackAppCompatActivity extends AppCompatActivity implements SwipeBackActivityBase {
+public class SwipeBackAppCompatActivity extends FragmentActivity implements SwipeBackActivityBase {
 
 	private SwipeBackActivityHelper mHelper;
 
